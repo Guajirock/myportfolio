@@ -3026,7 +3026,9 @@ Portfolio layout Styles
 	top:-150px;
 	background-attachment: scroll;
 	background-position: top;
-	background: url(../images/mainbg-1.jpg) fixed top no-repeat;
+	background: url(./../images/pexels-lukas-574071.jpg) fixed top no-repeat;
+	
+	/*background: rgb(150, 150, 150);*/
 	}
 	
 /* blog1 top header title
@@ -3039,11 +3041,13 @@ Portfolio layout Styles
 	float: left;
 }
 .header-title-box-2 .title {
-	font-size: 80px;
+	font-size: 90px;
 	font-weight:600;
 	padding:220px 0 0 0;
-	line-height:80px;
+	line-height:80px;	
+	text-shadow: 5px 3px black;
 }
+
 
 /*===============================================
 -------------------------------------------------
@@ -5695,4 +5699,7 @@ ul.sitemap li ul {
     color: #fff;
 	border:1px solid #fd602c;
 	background-color:#fd602c;
+}
+.nocopy{
+	user-select: none;
 }
